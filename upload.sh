@@ -9,7 +9,7 @@ Block="20";  #默认分块20m，自行修改
 RemoteDIR="";  #上传到Onedrive的路径，默认为根目录，如果要上传到MOERATS目录，""里面请填成MOERATS
 LocalDIR="/usr/local/caddy/www/aria2/Download/";  #Aria2下载目录，记得最后面加上/
 Uploader="/usr/local/bin/OneDriveUploader";  #上传的程序完整路径，默认为本文安装的目录
-Config="/home/ubuntu/auth.json";  #初始化生成的配置auth.json绝对路径，参考第3步骤生成的路径
+Config="/home/ubuntu/test/auth.json";  #初始化生成的配置auth.json绝对路径，参考第3步骤生成的路径
 
 
 if [[ -z $(echo "$FileNum" |grep -o '[0-9]*' |head -n1) ]]; then FileNum='0'; fi
